@@ -1,0 +1,22 @@
+/* Apply Roboto Slab to the entire body and most headings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav--main,
+.page__title {
+  font-family: "Lora", serif;
+  font-weight: 1.6;
+}
+
+/* Optional: Apply a different font for code to maintain readability */
+code,
+kbd,
+pre,
+samp {
+  font-family:
+    Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
